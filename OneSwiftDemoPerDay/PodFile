@@ -1,0 +1,12 @@
+platform:ios,'10.0'
+use_frameworks!
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+def pods
+pod 'SnapKit', '~> 3.2.0'
+end
+
+target 'OneSwiftDemoPerDay' do
+    pods
+end
