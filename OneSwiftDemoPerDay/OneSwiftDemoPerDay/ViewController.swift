@@ -10,6 +10,7 @@ import UIKit
 private let TableViewCell = "TableViewCell"
 class ViewController: UIViewController,UITableViewDelegate {
     
+    fileprivate var projectModelDatas = ProjectModel.createProjectModel()
     var tableView: UITableView?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,10 +31,17 @@ class ViewController: UIViewController,UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let firstVC = MainViewController()
-        self.navigationController?.pushViewController(firstVC, animated: true)
+        let secondVC = MovieListVC()
+        switch indexPath.row {
+        case 0:
+            self.navigationController?.pushViewController(firstVC, animated: true)
+        case 1:
+            self.navigationController?.pushViewController(secondVC, animated: true)
+        default:
+            break
+            
+        }
     }
-
-
 }
 
 extension ViewController: UITableViewDataSource{
@@ -42,13 +50,13 @@ extension ViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return projectModelDatas.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:UITableViewCell = UITableViewCell()
       
-        cell.textLabel?.text = String.init(format: "%dst CollectionView Test", indexPath.row + 1)
+        cell.textLabel?.text = projectModelDatas[indexPath.row].title
         cell.accessoryType = .disclosureIndicator
         return cell
     }

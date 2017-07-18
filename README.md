@@ -14,5 +14,24 @@
 
 The End
 
+#### The Second Day
+今天做的这个播放本地视频的项目，主要使用了自定义UITableViewCell,其中cell的布局依旧完全交给SnapKit去处理，播放视频利用的是原生的AVKit与AVFoundation。
+
+tip: 控制器跳转的两个方法push与present的差别：
+
+	 self.navigationController?.pushViewController(viewController: UIViewController, animated: Bool)	
+	 
+	 self.present(UIViewController, animated: Bool) {}
+	 
+present方法可以进行后续跳转过去之后的操作，自带block块。
+
+![the first demo](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/2nd.png)
+
+
+The End
+
+### 项目中使用的第三方框架
+- [SnapKit]()
+
 ### 关于练习案例来源
 - [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)

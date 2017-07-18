@@ -17,6 +17,11 @@
 		1878E2B41F1C900F005E53DC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2B31F1C900F005E53DC /* CollectionViewCell.swift */; };
 		1878E2B61F1C90AC005E53DC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2B51F1C90AC005E53DC /* MainViewController.swift */; };
 		1878E2B81F1CA9EF005E53DC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2B71F1CA9EF005E53DC /* ModelData.swift */; };
+		1878E2BF1F1DE8B4005E53DC /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1878E2BE1F1DE8B4005E53DC /* emoji zone.mp4 */; };
+		1878E2C11F1DE95F005E53DC /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2C01F1DE95F005E53DC /* MovieViewCell.swift */; };
+		1878E2C31F1DE97F005E53DC /* MovieListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2C21F1DE97F005E53DC /* MovieListVC.swift */; };
+		1878E2C51F1DEA4E005E53DC /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2C41F1DEA4E005E53DC /* VideoModel.swift */; };
+		1878E2C71F1DFA89005E53DC /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2C61F1DFA89005E53DC /* ProjectModel.swift */; };
 		40AD62C86B6FFA3B480A09F5 /* Pods_OneSwiftDemoPerDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F20A9A819F43C8B29944516 /* Pods_OneSwiftDemoPerDay.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +59,11 @@
 		1878E2B31F1C900F005E53DC /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		1878E2B51F1C90AC005E53DC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1878E2B71F1CA9EF005E53DC /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		1878E2BE1F1DE8B4005E53DC /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		1878E2C01F1DE95F005E53DC /* MovieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
+		1878E2C21F1DE97F005E53DC /* MovieListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListVC.swift; sourceTree = "<group>"; };
+		1878E2C41F1DEA4E005E53DC /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		1878E2C61F1DFA89005E53DC /* ProjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
 		3993220C2035B859190C3354 /* Pods-OneSwiftDemoPerDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSwiftDemoPerDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSwiftDemoPerDay/Pods-OneSwiftDemoPerDay.debug.xcconfig"; sourceTree = "<group>"; };
 		4F20A9A819F43C8B29944516 /* Pods_OneSwiftDemoPerDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSwiftDemoPerDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE20DA4CCB0E179DD8B348D3 /* Pods-OneSwiftDemoPerDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSwiftDemoPerDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSwiftDemoPerDay/Pods-OneSwiftDemoPerDay.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,9 +120,11 @@
 		1878E2801F1C826A005E53DC /* OneSwiftDemoPerDay */ = {
 			isa = PBXGroup;
 			children = (
+				1878E2B91F1DE7EF005E53DC /* The 2nd Day */,
 				1878E2AF1F1C8BAF005E53DC /* The 1st Day */,
 				1878E2811F1C826A005E53DC /* AppDelegate.swift */,
 				1878E2831F1C826A005E53DC /* ViewController.swift */,
+				1878E2C61F1DFA89005E53DC /* ProjectModel.swift */,
 				1878E2851F1C826A005E53DC /* Main.storyboard */,
 				1878E2881F1C826A005E53DC /* Assets.xcassets */,
 				1878E28A1F1C826A005E53DC /* LaunchScreen.storyboard */,
@@ -171,6 +183,49 @@
 				1878E2B51F1C90AC005E53DC /* MainViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		1878E2B91F1DE7EF005E53DC /* The 2nd Day */ = {
+			isa = PBXGroup;
+			children = (
+				1878E2BD1F1DE849005E53DC /* Resource */,
+				1878E2BC1F1DE843005E53DC /* View */,
+				1878E2BB1F1DE83A005E53DC /* Controller */,
+				1878E2BA1F1DE82F005E53DC /* Model */,
+			);
+			path = "The 2nd Day";
+			sourceTree = "<group>";
+		};
+		1878E2BA1F1DE82F005E53DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1878E2C41F1DEA4E005E53DC /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1878E2BB1F1DE83A005E53DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1878E2C21F1DE97F005E53DC /* MovieListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1878E2BC1F1DE843005E53DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1878E2C01F1DE95F005E53DC /* MovieViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1878E2BD1F1DE849005E53DC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1878E2BE1F1DE8B4005E53DC /* emoji zone.mp4 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		6576E2465625F6AF010024A0 /* Frameworks */ = {
@@ -301,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1878E28C1F1C826A005E53DC /* LaunchScreen.storyboard in Resources */,
+				1878E2BF1F1DE8B4005E53DC /* emoji zone.mp4 in Resources */,
 				1878E2891F1C826A005E53DC /* Assets.xcassets in Resources */,
 				1878E2871F1C826A005E53DC /* Main.storyboard in Resources */,
 			);
@@ -377,9 +433,13 @@
 			files = (
 				1878E2841F1C826A005E53DC /* ViewController.swift in Sources */,
 				1878E2821F1C826A005E53DC /* AppDelegate.swift in Sources */,
+				1878E2C71F1DFA89005E53DC /* ProjectModel.swift in Sources */,
 				1878E2B81F1CA9EF005E53DC /* ModelData.swift in Sources */,
+				1878E2C51F1DEA4E005E53DC /* VideoModel.swift in Sources */,
 				1878E2B41F1C900F005E53DC /* CollectionViewCell.swift in Sources */,
 				1878E2B61F1C90AC005E53DC /* MainViewController.swift in Sources */,
+				1878E2C31F1DE97F005E53DC /* MovieListVC.swift in Sources */,
+				1878E2C11F1DE95F005E53DC /* MovieViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
