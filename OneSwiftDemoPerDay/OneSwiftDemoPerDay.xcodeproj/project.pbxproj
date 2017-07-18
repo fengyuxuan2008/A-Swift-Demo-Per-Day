@@ -14,6 +14,9 @@
 		1878E28C1F1C826A005E53DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878E28A1F1C826A005E53DC /* LaunchScreen.storyboard */; };
 		1878E2971F1C826B005E53DC /* OneSwiftDemoPerDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2961F1C826B005E53DC /* OneSwiftDemoPerDayTests.swift */; };
 		1878E2A21F1C826B005E53DC /* OneSwiftDemoPerDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2A11F1C826B005E53DC /* OneSwiftDemoPerDayUITests.swift */; };
+		1878E2B41F1C900F005E53DC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2B31F1C900F005E53DC /* CollectionViewCell.swift */; };
+		1878E2B61F1C90AC005E53DC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2B51F1C90AC005E53DC /* MainViewController.swift */; };
+		1878E2B81F1CA9EF005E53DC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2B71F1CA9EF005E53DC /* ModelData.swift */; };
 		40AD62C86B6FFA3B480A09F5 /* Pods_OneSwiftDemoPerDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F20A9A819F43C8B29944516 /* Pods_OneSwiftDemoPerDay.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,9 @@
 		1878E29D1F1C826B005E53DC /* OneSwiftDemoPerDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneSwiftDemoPerDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1878E2A11F1C826B005E53DC /* OneSwiftDemoPerDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSwiftDemoPerDayUITests.swift; sourceTree = "<group>"; };
 		1878E2A31F1C826B005E53DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1878E2B31F1C900F005E53DC /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1878E2B51F1C90AC005E53DC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1878E2B71F1CA9EF005E53DC /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		3993220C2035B859190C3354 /* Pods-OneSwiftDemoPerDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSwiftDemoPerDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSwiftDemoPerDay/Pods-OneSwiftDemoPerDay.debug.xcconfig"; sourceTree = "<group>"; };
 		4F20A9A819F43C8B29944516 /* Pods_OneSwiftDemoPerDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSwiftDemoPerDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE20DA4CCB0E179DD8B348D3 /* Pods-OneSwiftDemoPerDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSwiftDemoPerDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSwiftDemoPerDay/Pods-OneSwiftDemoPerDay.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +152,7 @@
 		1878E2B01F1C8C63005E53DC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1878E2B31F1C900F005E53DC /* CollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +160,7 @@
 		1878E2B11F1C8C6B005E53DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1878E2B71F1CA9EF005E53DC /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 		1878E2B21F1C8C72005E53DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1878E2B51F1C90AC005E53DC /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -368,6 +377,9 @@
 			files = (
 				1878E2841F1C826A005E53DC /* ViewController.swift in Sources */,
 				1878E2821F1C826A005E53DC /* AppDelegate.swift in Sources */,
+				1878E2B81F1CA9EF005E53DC /* ModelData.swift in Sources */,
+				1878E2B41F1C900F005E53DC /* CollectionViewCell.swift in Sources */,
+				1878E2B61F1C90AC005E53DC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +532,7 @@
 			baseConfigurationReference = 3993220C2035B859190C3354 /* Pods-OneSwiftDemoPerDay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				INFOPLIST_FILE = OneSwiftDemoPerDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tao.wang-163.com.OneSwiftDemoPerDay";
@@ -533,6 +546,7 @@
 			baseConfigurationReference = EE20DA4CCB0E179DD8B348D3 /* Pods-OneSwiftDemoPerDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				INFOPLIST_FILE = OneSwiftDemoPerDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tao.wang-163.com.OneSwiftDemoPerDay";
