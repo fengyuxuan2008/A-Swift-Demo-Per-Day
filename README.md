@@ -10,7 +10,7 @@
 
 自定义的UICollectionViewCell的布局使用了第三方的SnapKit，使用方法简单，与AutoLayout的原理异曲同工，后续可能专门针对其进行练习。
 
-![the first demo](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/the first pic.png)
+![the first demo](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/theFirstPic.png)
 
 The End
 
