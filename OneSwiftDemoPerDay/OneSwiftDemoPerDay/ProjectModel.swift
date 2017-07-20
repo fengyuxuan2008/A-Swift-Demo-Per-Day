@@ -18,6 +18,7 @@ class ProjectModel{
         return [
             ProjectModel(title: "1. CollectionView Test"),
             ProjectModel(title: "2. Play Local Video"),
+            ProjectModel(title: "3. IBDesignables")
         ]
     }
 }

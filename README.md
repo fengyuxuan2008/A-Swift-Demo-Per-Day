@@ -12,8 +12,8 @@
 
 ![the first demo](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/theFirstPic.png)
 
-The End
-
+#### The End
+---
 #### The Second Day
 今天做的这个播放本地视频的项目，主要使用了自定义UITableViewCell,其中cell的布局依旧完全交给SnapKit去处理，播放视频利用的是原生的AVKit与AVFoundation。
 
@@ -28,10 +28,57 @@ present方法可以进行后续跳转过去之后的操作，自带block块。
 ![the first demo](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/2nd.png)
 
 
-The End
+#### The End
+---
+#### The Third Day
+昨天生病了，下班回去早早就休息了，今天继续开始做个小项目。
 
+之前都是用snapkit进行纯代码布局，今天开始尝试使用storyBoard进行界面布局，使用 @IBDesignable 自定义 UIButton 与 UIView 在storyBoard中的可视化属性，可以通过右侧工具栏直接修改期望得到的圆角等属性，十分便利。
+
+	import UIKit
+	@IBDesignable class DesignableView: UIView {
+   	  @IBInspectable var cornerRadius: CGFloat = 0{
+        didSet{
+            self.layer.cornerRadius = cornerRadius
+       		 }
+   		 }
+	}
+	
+	import UIKit
+
+	@IBDesignable class DesignableButton: UIButton {
+      @IBInspectable var borderWidth: CGFloat = 0.0{
+        didSet{
+            self.layer.borderWidth = borderWidth
+        }
+    }
+      @IBInspectable var borderColor: UIColor = UIColor.clear{
+        didSet{
+            self.layer.borderColor = borderColor.cgColor
+        }
+    }
+      @IBInspectable var cornerRadius: CGFloat = 0{
+        didSet{
+            self.layer.cornerRadius = cornerRadius
+        	}
+    	}
+	}
+
+![designable-view](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/designable-view.png)
+
+![designable-button](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/designable-button.png)
+
+另外还有一点是关于怎么通过故事板直接实现毛玻璃效果的，其实直接将Visual Effect View 与View按照如下层级安放，然后将View的背景色设置为clearColor即可实现毛玻璃的效果：
+
+![view](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/view.png)
+
+![毛玻璃效果](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/毛玻璃效果.png)
+
+#### The End
+---
 ### 项目中使用的第三方框架
-- [SnapKit]()
+- [SnapKit](https://github.com/SnapKit/SnapKit)
 
 ### 关于练习案例来源
 - [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)
+- [Make Your Apps Look Awesome(链接打不开的话需要自备梯子)](https://www.youtube.com/channel/UChH6WbyYeX0INJjrK2-6WSg)

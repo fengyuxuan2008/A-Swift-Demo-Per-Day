@@ -32,11 +32,15 @@ class ViewController: UIViewController,UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let firstVC = MainViewController()
         let secondVC = MovieListVC()
+        let sto = UIStoryboard.init(name: "Storyboard", bundle: nil)
+       let thirdVC = sto.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
         switch indexPath.row {
         case 0:
             self.navigationController?.pushViewController(firstVC, animated: true)
         case 1:
             self.navigationController?.pushViewController(secondVC, animated: true)
+        case 2:
+            self.navigationController?.pushViewController(thirdVC, animated: true)
         default:
             break
             

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1878E2821F1C826A005E53DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2811F1C826A005E53DC /* AppDelegate.swift */; };
 		1878E2841F1C826A005E53DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2831F1C826A005E53DC /* ViewController.swift */; };
-		1878E2871F1C826A005E53DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878E2851F1C826A005E53DC /* Main.storyboard */; };
 		1878E2891F1C826A005E53DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1878E2881F1C826A005E53DC /* Assets.xcassets */; };
 		1878E28C1F1C826A005E53DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878E28A1F1C826A005E53DC /* LaunchScreen.storyboard */; };
 		1878E2971F1C826B005E53DC /* OneSwiftDemoPerDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2961F1C826B005E53DC /* OneSwiftDemoPerDayTests.swift */; };
@@ -22,6 +21,12 @@
 		1878E2C31F1DE97F005E53DC /* MovieListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2C21F1DE97F005E53DC /* MovieListVC.swift */; };
 		1878E2C51F1DEA4E005E53DC /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2C41F1DEA4E005E53DC /* VideoModel.swift */; };
 		1878E2C71F1DFA89005E53DC /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E2C61F1DFA89005E53DC /* ProjectModel.swift */; };
+		1878E3411F204C0F005E53DC /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E3401F204C0F005E53DC /* DesignableView.swift */; };
+		1878E3431F204DFA005E53DC /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E3421F204DFA005E53DC /* DesignableButton.swift */; };
+		1878E3471F207803005E53DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878E2851F1C826A005E53DC /* Main.storyboard */; };
+		1878E3491F2078AD005E53DC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878E3481F2078AD005E53DC /* Storyboard.storyboard */; };
+		1878E34B1F207997005E53DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E34A1F207997005E53DC /* LoginViewController.swift */; };
+		1878E34D1F208391005E53DC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878E34C1F208390005E53DC /* SignUpViewController.swift */; };
 		40AD62C86B6FFA3B480A09F5 /* Pods_OneSwiftDemoPerDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F20A9A819F43C8B29944516 /* Pods_OneSwiftDemoPerDay.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +69,11 @@
 		1878E2C21F1DE97F005E53DC /* MovieListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListVC.swift; sourceTree = "<group>"; };
 		1878E2C41F1DEA4E005E53DC /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		1878E2C61F1DFA89005E53DC /* ProjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
+		1878E3401F204C0F005E53DC /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		1878E3421F204DFA005E53DC /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		1878E3481F2078AD005E53DC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		1878E34A1F207997005E53DC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1878E34C1F208390005E53DC /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3993220C2035B859190C3354 /* Pods-OneSwiftDemoPerDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSwiftDemoPerDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSwiftDemoPerDay/Pods-OneSwiftDemoPerDay.debug.xcconfig"; sourceTree = "<group>"; };
 		4F20A9A819F43C8B29944516 /* Pods_OneSwiftDemoPerDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSwiftDemoPerDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE20DA4CCB0E179DD8B348D3 /* Pods-OneSwiftDemoPerDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSwiftDemoPerDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSwiftDemoPerDay/Pods-OneSwiftDemoPerDay.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +130,7 @@
 		1878E2801F1C826A005E53DC /* OneSwiftDemoPerDay */ = {
 			isa = PBXGroup;
 			children = (
+				1878E33F1F204B55005E53DC /* The 3rd Day */,
 				1878E2B91F1DE7EF005E53DC /* The 2nd Day */,
 				1878E2AF1F1C8BAF005E53DC /* The 1st Day */,
 				1878E2811F1C826A005E53DC /* AppDelegate.swift */,
@@ -226,6 +237,18 @@
 				1878E2BE1F1DE8B4005E53DC /* emoji zone.mp4 */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		1878E33F1F204B55005E53DC /* The 3rd Day */ = {
+			isa = PBXGroup;
+			children = (
+				1878E3401F204C0F005E53DC /* DesignableView.swift */,
+				1878E3421F204DFA005E53DC /* DesignableButton.swift */,
+				1878E3481F2078AD005E53DC /* Storyboard.storyboard */,
+				1878E34A1F207997005E53DC /* LoginViewController.swift */,
+				1878E34C1F208390005E53DC /* SignUpViewController.swift */,
+			);
+			path = "The 3rd Day";
 			sourceTree = "<group>";
 		};
 		6576E2465625F6AF010024A0 /* Frameworks */ = {
@@ -358,7 +381,8 @@
 				1878E28C1F1C826A005E53DC /* LaunchScreen.storyboard in Resources */,
 				1878E2BF1F1DE8B4005E53DC /* emoji zone.mp4 in Resources */,
 				1878E2891F1C826A005E53DC /* Assets.xcassets in Resources */,
-				1878E2871F1C826A005E53DC /* Main.storyboard in Resources */,
+				1878E3471F207803005E53DC /* Main.storyboard in Resources */,
+				1878E3491F2078AD005E53DC /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,14 +455,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1878E34B1F207997005E53DC /* LoginViewController.swift in Sources */,
 				1878E2841F1C826A005E53DC /* ViewController.swift in Sources */,
 				1878E2821F1C826A005E53DC /* AppDelegate.swift in Sources */,
 				1878E2C71F1DFA89005E53DC /* ProjectModel.swift in Sources */,
 				1878E2B81F1CA9EF005E53DC /* ModelData.swift in Sources */,
+				1878E3431F204DFA005E53DC /* DesignableButton.swift in Sources */,
 				1878E2C51F1DEA4E005E53DC /* VideoModel.swift in Sources */,
 				1878E2B41F1C900F005E53DC /* CollectionViewCell.swift in Sources */,
 				1878E2B61F1C90AC005E53DC /* MainViewController.swift in Sources */,
 				1878E2C31F1DE97F005E53DC /* MovieListVC.swift in Sources */,
+				1878E3411F204C0F005E53DC /* DesignableView.swift in Sources */,
+				1878E34D1F208391005E53DC /* SignUpViewController.swift in Sources */,
 				1878E2C11F1DE95F005E53DC /* MovieViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +634,10 @@
 			baseConfigurationReference = EE20DA4CCB0E179DD8B348D3 /* Pods-OneSwiftDemoPerDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SnapKit\"",
+				);
 				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				INFOPLIST_FILE = OneSwiftDemoPerDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
