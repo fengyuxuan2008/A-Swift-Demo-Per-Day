@@ -78,6 +78,8 @@ present方法可以进行后续跳转过去之后的操作，自带block块。
 ---
 #### The Forth Day
 今天做了一个menu button,用到了UIView的动画效果。
+
+顺便修复使用SourceTree提交commit，在github不显示的问题。
 #### The End
 ---
 ### 项目中使用的第三方框架
