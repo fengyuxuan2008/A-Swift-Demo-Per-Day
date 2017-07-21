@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--More Button View Controller-->
+        <scene sceneID="FWs-si-GgO">
+            <objects>
+                <viewController storyboardIdentifier="MoreButtonViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mkl-uJ-Aak" customClass="MoreButtonViewController" customModule="OneSwiftDemoPerDay" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dVb-7s-l7f"/>
+                        <viewControllerLayoutGuide type="bottom" id="XRZ-Ai-Bpd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vye-XR-LcO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXH-Ig-N6o">
+                                <rect key="frame" x="167" y="500" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="演艺经纪"/>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4RH-Kj-dZy">
+                                <rect key="frame" x="91" y="546" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="文化传媒"/>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACT-Zx-7sB">
+                                <rect key="frame" x="241" y="546" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="影视制作"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3v-6Y-YAy">
+                                <rect key="frame" x="160" y="592" width="54" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="moreBtn"/>
+                                <connections>
+                                    <action selector="moreButtonClick:" destination="mkl-uJ-Aak" eventType="touchUpInside" id="OVT-O0-8Nm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="cultureButton" destination="bXH-Ig-N6o" id="9vB-0O-Jmf"/>
+                        <outlet property="moreButton" destination="A3v-6Y-YAy" id="cOf-hm-100"/>
+                        <outlet property="movieButton" destination="4RH-Kj-dZy" id="g3I-DO-uLr"/>
+                        <outlet property="playButton" destination="ACT-Zx-7sB" id="tZB-MG-n1n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IGS-Ta-spN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-513" y="-233"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="moreBtn" width="54" height="54"/>
+        <image name="影视制作" width="40" height="40"/>
+        <image name="文化传媒" width="40" height="40"/>
+        <image name="演艺经纪" width="40" height="40"/>
+    </resources>
+</document>

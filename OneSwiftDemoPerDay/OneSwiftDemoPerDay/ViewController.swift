@@ -34,6 +34,8 @@ class ViewController: UIViewController,UITableViewDelegate {
         let secondVC = MovieListVC()
         let sto = UIStoryboard.init(name: "Storyboard", bundle: nil)
        let thirdVC = sto.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        let SB = UIStoryboard.init(name: "moreButtonSB", bundle: nil)
+        let forthVC = SB.instantiateViewController(withIdentifier: "MoreButtonViewController") as! MoreButtonViewController
         switch indexPath.row {
         case 0:
             self.navigationController?.pushViewController(firstVC, animated: true)
@@ -41,6 +43,8 @@ class ViewController: UIViewController,UITableViewDelegate {
             self.navigationController?.pushViewController(secondVC, animated: true)
         case 2:
             self.navigationController?.pushViewController(thirdVC, animated: true)
+        case 3:
+            self.navigationController?.pushViewController(forthVC, animated: true)
         default:
             break
             
