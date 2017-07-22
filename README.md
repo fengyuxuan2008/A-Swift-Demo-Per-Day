@@ -80,6 +80,17 @@ present方法可以进行后续跳转过去之后的操作，自带block块。
 今天做了一个menu button,用到了UIView的动画效果。
 
 顺便修复使用SourceTree提交commit，在github不显示的问题。
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/button_menu.gif)
+
+#### The End
+---
+
+#### The Fifth Day
+使用UIView的弹性动画效果对UITableViewCell、UIButton做了些动效处理。
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/The-fifth-Day_View-Animations/the-fifth-day.gif)
+
 #### The End
 ---
 ### 项目中使用的第三方框架
