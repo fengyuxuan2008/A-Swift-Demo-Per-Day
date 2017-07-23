@@ -93,6 +93,13 @@ present方法可以进行后续跳转过去之后的操作，自带block块。
 
 #### The End
 ---
+#### The Sixth Day
+今天周末，看了一下iOS11的新特性，熟悉了一下Drag 和 Drop的相关api，并做了一个使用案例，将textView中的选中文本长按并拖拽到tableView中显示出来。
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/The-Sixth-Day_DragAndDrop/drag-drop.gif)
+
+#### The End
+---
 ### 项目中使用的第三方框架
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 
