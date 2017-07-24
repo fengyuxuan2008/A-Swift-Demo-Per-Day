@@ -100,6 +100,19 @@ present方法可以进行后续跳转过去之后的操作，自带block块。
 
 #### The End
 ---
+#### The Seventh Day
+在swift项目中引用OC的第三方库，方案如下， 下载第三方库然后拖入到项目中，之后创建header文件，创建时需要特别注意如下选项：
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/group.png)
+
+之后在build setting中进行如下设置：
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/images/setting.png)
+
+然后将三方库的头文件在header文件中引用即可成功使用OC的第三方库了。
+
+#### End
+---
 ### 项目中使用的第三方框架
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 
