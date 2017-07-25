@@ -111,7 +111,15 @@ present方法可以进行后续跳转过去之后的操作，自带block块。
 
 然后将三方库的头文件在header文件中引用即可成功使用OC的第三方库了。
 
-#### End
+####The End
+---
+
+#### The Eighth Day
+使用coreData对数据进行存储并读取。
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/TheEighthDay_CoreData/coreData.gif)
+
+#### The End
 ---
 ### 项目中使用的第三方框架
 - [SnapKit](https://github.com/SnapKit/SnapKit)
