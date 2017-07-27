@@ -125,6 +125,13 @@ present方法可以进行后续跳转过去之后的操作，自带block块。
 Using JSON Data from the Web
 #### The End
 ---
+#### The Tenth Day
+circleTransition
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/TenthDay_circleTransition/circleTransition.gif)
+ 
+#### The End
+---
 ### 项目中使用的第三方框架
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 
