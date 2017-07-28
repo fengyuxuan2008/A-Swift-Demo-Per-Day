@@ -126,12 +126,20 @@ Using JSON Data from the Web
 #### The End
 ---
 #### The Tenth Day
-circleTransition
+circleTransition，此项目是自定义present的modal属性来实现转场动画。
 
 ![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/TenthDay_circleTransition/circleTransition.gif)
  
 #### The End
 ---
+#### The Eleventh Day
+circleTransition2,此项目是存在导航的情况下实现的转场动画，用到了动画所需的各种协议与方法，并在最后深入同用户的交互，加入pan手势。
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/EleventhDay_CircleTransition(2)/circleTransition2.gif)
+
+#### The End
+---
+
 ### 项目中使用的第三方框架
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 
