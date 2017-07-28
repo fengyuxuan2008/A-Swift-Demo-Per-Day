@@ -39,7 +39,7 @@ class NavigationControllerDelegate: NSObject, UINavigationControllerDelegate{
             }
         case .changed:
             let translation = gestureRecognizer.translation(in: self.navigationController!.view)
-            let completionProgress = translation.x/self.navigationController!.view.bounds.size.width
+            let completionProgress = translation.x/self.navigationController!.view.bounds.width
             self.interactionController?.update(completionProgress)
         case .ended:
             if (gestureRecognizer.velocity(in: self.navigationController!.view).x > 0){
