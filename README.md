@@ -139,11 +139,19 @@ circleTransition2,此项目是存在导航的情况下实现的转场动画，�
 
 #### The End
 ---
+#### The Twelfth Day
+到周六了，跟着教学案例做了一个关于SoundMemory的小游戏放松一下。
 
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/TwelfthDay_SoundMemory/soundMemory.gif)
+
+#### The End
+---
 ### 项目中使用的第三方框架
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 
 ### 关于练习案例来源
-- [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)
-- [Make Your Apps Look Awesome(链接打不开的话需要自备梯子)](https://www.youtube.com/channel/UChH6WbyYeX0INJjrK2-6WSg)
+- [Stanford - Developing iOS 10 Apps with Swift(链接打不开的话需要自备梯子)](https://www.youtube.com/watch?v=4iNHsR6ePYw&index=2&list=PL3d_SFOiG7_-AhUEwk_TJ_GEjO67GMBHR)
+- [Make Your Apps Look Awesome](https://www.youtube.com/channel/UChH6WbyYeX0INJjrK2-6WSg)
+- [Brian Advent](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw)
 - [raywenderlich](https://www.raywenderlich.com/)
+- [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)

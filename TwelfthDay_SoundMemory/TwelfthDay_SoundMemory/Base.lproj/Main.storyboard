@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TwelfthDay_SoundMemory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kMY-ik-dCu">
+                                <rect key="frame" x="16" y="164" width="165" height="165"/>
+                                <state key="normal" image="red"/>
+                                <connections>
+                                    <action selector="soundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pXA-VX-TcB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaO-Af-NbB">
+                                <rect key="frame" x="189" y="164" width="165" height="165"/>
+                                <state key="normal" image="yellow"/>
+                                <connections>
+                                    <action selector="soundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ydX-V8-phy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klC-hZ-1ge">
+                                <rect key="frame" x="16" y="337" width="165" height="166"/>
+                                <state key="normal" image="green"/>
+                                <connections>
+                                    <action selector="soundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hLk-Nz-p1H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1l-ZD-ImR">
+                                <rect key="frame" x="189" y="337" width="165" height="165"/>
+                                <state key="normal" image="blue"/>
+                                <connections>
+                                    <action selector="soundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lM3-Tl-mBG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2O-Pi-MHk">
+                                <rect key="frame" x="143" y="290" width="88" height="88"/>
+                                <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Za-ol-MiW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YD-rA-L1c">
+                                <rect key="frame" x="141" y="61" width="93" height="59"/>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="y2O-Pi-MHk" firstAttribute="leading" secondItem="klC-hZ-1ge" secondAttribute="trailing" constant="-38" id="6YK-ZC-tcs"/>
+                            <constraint firstItem="y2O-Pi-MHk" firstAttribute="top" secondItem="kMY-ik-dCu" secondAttribute="bottom" constant="-39.5" id="6cB-eK-44F"/>
+                            <constraint firstItem="y2O-Pi-MHk" firstAttribute="leading" secondItem="kMY-ik-dCu" secondAttribute="trailing" constant="-38" id="7tl-ph-asr"/>
+                            <constraint firstItem="klC-hZ-1ge" firstAttribute="top" secondItem="y2O-Pi-MHk" secondAttribute="bottom" constant="-40.5" id="84W-w4-c6o"/>
+                            <constraint firstItem="y2O-Pi-MHk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GZy-S6-bhQ"/>
+                            <constraint firstItem="0YD-rA-L1c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KDZ-y3-Efn"/>
+                            <constraint firstItem="ZaO-Af-NbB" firstAttribute="leading" secondItem="y2O-Pi-MHk" secondAttribute="trailing" constant="-42" id="Oes-KM-y3C"/>
+                            <constraint firstItem="y2O-Pi-MHk" firstAttribute="top" secondItem="ZaO-Af-NbB" secondAttribute="bottom" constant="-39.5" id="Ppa-yX-kzQ"/>
+                            <constraint firstItem="y2O-Pi-MHk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RTr-XP-mFJ"/>
+                            <constraint firstItem="k1l-ZD-ImR" firstAttribute="trailing" secondItem="ZaO-Af-NbB" secondAttribute="trailing" id="cFp-2y-6S1"/>
+                            <constraint firstItem="0YD-rA-L1c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="41" id="d62-tB-CQ7"/>
+                            <constraint firstItem="k1l-ZD-ImR" firstAttribute="top" secondItem="klC-hZ-1ge" secondAttribute="top" id="gur-Oa-rOQ"/>
+                            <constraint firstItem="k1l-ZD-ImR" firstAttribute="leading" secondItem="klC-hZ-1ge" secondAttribute="trailing" constant="8" symbolic="YES" id="lTe-Lf-nMa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="k1l-ZD-ImR" secondAttribute="trailing" constant="5" id="nTy-Sw-5uP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="k1l-ZD-ImR" secondAttribute="bottom" constant="165" id="oLh-l7-IUy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="levelLabel" destination="0YD-rA-L1c" id="dVV-Id-koV"/>
+                        <outlet property="startGameButton" destination="y2O-Pi-MHk" id="gbN-nI-Ard"/>
+                        <outletCollection property="soundButton" destination="kMY-ik-dCu" collectionClass="NSMutableArray" id="w8q-40-GwT"/>
+                        <outletCollection property="soundButton" destination="ZaO-Af-NbB" collectionClass="NSMutableArray" id="QbH-hM-XpI"/>
+                        <outletCollection property="soundButton" destination="k1l-ZD-ImR" collectionClass="NSMutableArray" id="WPt-UV-aRX"/>
+                        <outletCollection property="soundButton" destination="klC-hZ-1ge" collectionClass="NSMutableArray" id="GTn-4R-j28"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blue" width="166" height="166"/>
+        <image name="green" width="165" height="166"/>
+        <image name="play" width="88" height="88"/>
+        <image name="red" width="165" height="165"/>
+        <image name="yellow" width="166" height="165"/>
+    </resources>
+</document>
