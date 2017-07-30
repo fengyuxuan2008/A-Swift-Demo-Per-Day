@@ -146,6 +146,15 @@ circleTransition2,此项目是存在导航的情况下实现的转场动画，�
 
 #### The End
 ---
+#### 第13天
+Stanford - Developing iOS 10 Apps with Swift，进入全英学习周期
+
+做一个计算器
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/TThirteenthDay_Calculator/calculator.gif)
+
+#### The End
+---
 ### 项目中使用的第三方框架
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 
