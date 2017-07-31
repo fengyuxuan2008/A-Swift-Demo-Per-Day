@@ -151,7 +151,14 @@ Stanford - Developing iOS 10 Apps with Swift，进入全英学习周期
 
 做一个计算器
 
-![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/TThirteenthDay_Calculator/calculator.gif)
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/ThirteenthDay_Calculator/calculator.gif)
+
+#### The End
+---
+#### 第14天
+以MVC的设计模式重构前一天的计算器项目，然后用stackView对View进行横竖屏适配。
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/ThirteenthDay_Calculator/calculator-MVC.gif)
 
 #### The End
 ---
