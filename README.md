@@ -162,6 +162,27 @@ Stanford - Developing iOS 10 Apps with Swift，进入全英学习周期
 
 #### The End
 ---
+#### 第15天
+iOS10 本地通知demo
+
+#### The End
+---
+#### 第16天
+Make A Textured Earth，用到了SceneKit， 另外还使用了悬浮窗口调试工具，开启此功能的代码如下，在模拟器上 option + 鼠标单击 激活双手指模式，之后点击状态栏即可调出相应的调试View。
+
+	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
+        let overlayClass = NSClassFromString("UIDebuggingInformationOverlay") as? UIWindow.Type
+
+        _ = overlayClass?.perform(NSSelectorFromString("prepareDebuggingOverlay"))
+
+        return true
+    }
+
+![](https://github.com/fengyuxuan2008/A-Swift-Demo-Per-Day/raw/master/SixteenthDay_makeTexturedEarth/earth.gif)
+
+#### The End
+---
 ### 项目中使用的第三方框架
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 
@@ -171,3 +192,4 @@ Stanford - Developing iOS 10 Apps with Swift，进入全英学习周期
 - [Brian Advent](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw)
 - [raywenderlich](https://www.raywenderlich.com/)
 - [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)
+- [swift.gg](http://swift.gg)
